@@ -9,6 +9,6 @@ public class RemoveString {
         System.out.println("Enter a string: ");
         fragment = input.nextLine();
         input.close();
-        System.out.println(sentence.replace("fragment", ""));        
+        System.out.println(sentence.replace(fragment, ""));        
     }
 }
